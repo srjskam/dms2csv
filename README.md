@@ -1,8 +1,8 @@
 # dms2csv
 
-Convert multiband sonar data into latitude/longitude/depth points.
+Convert multibeam sonar data into latitude/longitude/depth points.
 
-[NOAA](https://maps.ngdc.noaa.gov/viewers/bathymetry/) (probably among others) provides their multiband
+[NOAA](https://maps.ngdc.noaa.gov/viewers/bathymetry/) (probably among others) provides their multibeam
 sonar bathymetry data in .dms format, which is a simpleish fixed field width text file. 
 This script converts it into a comma-separated list (latitude, longitude, depth), which should be easy to import
 into any GIS program.
