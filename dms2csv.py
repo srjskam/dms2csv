@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# for a in *.gz; do gunzip --stdout $a ; done | ./multibeam2points.py > output.csv
+# for a in *.gz; do gunzip --stdout $a ; done | ./dms2csv.py > output.csv
 
 from math import asin,sin,cos,radians,degrees
 import fileinput
